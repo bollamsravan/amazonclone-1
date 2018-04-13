@@ -54,7 +54,7 @@
             </div>
         </div>
         <div class="col-lg-4 col-md-4">
-            <img src="../images/amazon_app_quiz.jpg" alt="">
+            <%--<img src="../images/amazon_app_quiz.jpg" alt="">--%>
         </div>
     </div>
     <div class="row nav-main">
