@@ -20,9 +20,7 @@ public class NewTest {
         System.setProperty("webdriver.gecko.driver", "/home/dharma_vandanapu/seleniumGecko/geckodriver.exe");
 
         //Now you can Initialize marionette driver to launch firefox
-        DesiredCapabilities capabilities = DesiredCapabilities.firefox();
-        capabilities.setCapability("marionette", true);
-        WebDriver driver = new FirefoxDriver(capabilities);
+        WebDriver driver = new FirefoxDriver();
         driver.get("http://localhost:8011/login");
         String title = driver.getTitle();
         Assert.assertTrue(title.contains("Demo Guru99 Page"));
