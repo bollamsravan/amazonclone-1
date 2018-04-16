@@ -17,7 +17,7 @@ public class NewTest {
     private WebDriver driver;
     @Test
     public void testEasy() {
-        System.setProperty("webdriver.gecko.driver", "/home/dharma_vandanapu/seleniumGecko/geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "/home/dharma_vandanapu/seleniumGecko/geckodriver");
 
         //Now you can Initialize marionette driver to launch firefox
         WebDriver driver = new FirefoxDriver();
