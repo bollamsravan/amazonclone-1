@@ -33,9 +33,9 @@ public class NewTest {
     private WebDriver driver;
     @Test
     public void testEasy() {
-        driver.get("http://demo.guru99.com/test/guru99home/");
+        driver.get("http://localhost:8011/login");
         String title = driver.getTitle();
-        Assert.assertTrue(title.contains("Demo Guru99 Page"));
+        Assert.assertTrue(title.contains("Amazon Sign IN"));
     }
     @BeforeTest
     public void beforeTest() {
@@ -45,4 +45,4 @@ public class NewTest {
     public void afterTest() {
         driver.quit();
     }
-}	
+}
