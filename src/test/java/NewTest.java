@@ -33,9 +33,20 @@ public class NewTest {
     private WebDriver driver;
     @Test
     public void testEasy() {
+        // Create a new instance of the Firefox driver
+        WebDriver driver = new FirefoxDriver();
+
+        //Launch the Online Store Website
         driver.get("http://localhost:8011/login");
-        String title = driver.getTitle();
-        Assert.assertTrue(title.contains("Amazon Sign IN"));
+
+        // Print a Log In message to the screen
+        System.out.println("Successfully opened the website www.Store.Demoqa.com");
+
+        //Wait for 5 Sec
+        Thread.sleep(5000);
+
+        // Close the driver
+        driver.quit();
     }
     @BeforeTest
     public void beforeTest() {
