@@ -28,7 +28,8 @@
 <header class="container-fluid header">
     <div class="row nav-belt ">
         <div class="logo col-lg-2 col-md-2">
-            <a href="/" class="nav-logo-link"><img src="../images/logo.png" alt=""></a>
+            <a href="/" class="nav-logo-link"><img src="#" alt="" style="text-color: white">E-Store</a>
+
         </div>
         <div class="col-lg-6 col-md-6">
             <div class="row  search-box ">
@@ -54,7 +55,7 @@
             </div>
         </div>
         <div class="col-lg-4 col-md-4">
-            <img src="../images/amazon_app_quiz.jpg" alt="">
+            <%--<img src="../images/amazon_app_quiz.jpg" alt="">--%>
         </div>
     </div>
     <div class="row nav-main">
@@ -104,8 +105,8 @@
                 <br>
                 <a href="#">
                     <%= (user==null)? "your":user.getUserName()%>
-                    Amazon.in</a> &nbsp;&nbsp;&nbsp;
-                <a href="/amazonpay">Amazon Pay</a>&nbsp;&nbsp;&nbsp;
+                    Accout</a> &nbsp;&nbsp;&nbsp;
+                <a href="/amazonpay">Wallet</a>&nbsp;&nbsp;&nbsp;
                 <a href="/sellerlogin">Sell</a>&nbsp;&nbsp;&nbsp;
                 <% if(user!=null && user.getEmailId().equals("admin@admin.com")) { %>
                     <a href="/admin">admin</a> &nbsp;&nbsp;
@@ -137,13 +138,13 @@
                     </div>
                     <%}%>
                 </div>
-                <div class="col-md-2 nav-border-round" id="nav-prime">
-                    <a href="#">
-                        <span class="nav-line-1">Try</span><br>
-                        <span class="nav-line-2"> Prime</span>
-                        <i class="fa fa-caret-down" aria-hidden="true"></i>
-                    </a>
-                </div>
+                <%--<div class="col-md-2 nav-border-round" id="nav-prime">--%>
+                    <%--<a href="#">--%>
+                        <%--<span class="nav-line-1">Try</span><br>--%>
+                        <%--<span class="nav-line-2"> Prime</span>--%>
+                        <%--<i class="fa fa-caret-down" aria-hidden="true"></i>--%>
+                    <%--</a>--%>
+                <%--</div>--%>
                 <div class="col-md-3 nav-border-round" id="nav-yourlist">
                     <a href="/list">
                         <span class="nav-line-1">Your </span><br>

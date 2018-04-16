@@ -48,10 +48,10 @@
             <div class="a-section a-spacing-medium a-text-center">
 
 
-                <a class="a-link-nav-icon" tabindex="-1" href="https://www.amazon.in/ref=ap_frn_logo">
+                <%--<a class="a-link-nav-icon" tabindex="-1" href="https://www.amazon.in/ref=ap_frn_logo">--%>
 
 
-                    <i class="a-icon a-icon-logo" aria-label="Amazon"><span class="a-icon-alt">Amazon</span></i>
+                    <%--<i class="a-icon a-icon-logo" aria-label="Amazon"><span class="a-icon-alt">Amazon</span></i>--%>
 
 
                     <i class="a-icon a-icon-domain-in a-icon-domain"></i>
@@ -1706,7 +1706,7 @@
             <div class="a-section a-spacing-none a-text-center">
 
                     <span class="a-size-mini a-color-secondary">
-    © 1996-2018, Amazon.com, Inc. or its affiliates
+    © E-store Inc. or its affiliates
   </span>
             </div>
 

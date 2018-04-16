@@ -52,8 +52,7 @@
     <div class="nav-footer-line"></div>
     <div class="navFooterLine navFooterLogoLine">
         <a href="#">
-            <img src="../images/logo_small.png" alt="Amazon">
-            <div class="nav-logo-base nav-sprite"></div>
+            <img src="# alt="Amazon">
         </a>
     </div>
     <div class="navFooterLine navFooterLinkLine navFooterPadItemLine ">

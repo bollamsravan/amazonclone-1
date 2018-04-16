@@ -73,12 +73,12 @@
 <div id="a-page">
     <div class="a-section a-padding-medium auth-workflow">
         <div class="a-section a-spacing-none auth-navbar">
-            <div class="a-section a-spacing-medium a-text-center">
-                <a class="a-link-nav-icon" tabindex="-1" href="/">
-                    <i class="a-icon a-icon-logo" aria-label="Amazon"><span class="a-icon-alt">Amazon</span></i>
-                    <i class="a-icon a-icon-domain-in a-icon-domain"></i>
-                </a>
-            </div>
+            <%--<div class="a-section a-spacing-medium a-text-center">--%>
+                <%--<a class="a-link-nav-icon" tabindex="-1" href="/">--%>
+                    <%--<i class="a-icon a-icon-logo" aria-label="E-Store"><span class="a-icon-alt">E-Store</span></i>--%>
+                    <%--<i class="a-icon a-icon-domain-in a-icon-domain"></i>--%>
+                <%--</a>--%>
+            <%--</div>--%>
         </div>
         <div class="a-section a-spacing-base auth-pagelet-container">
             <div id="auth-cookie-warning-message" class="a-box a-alert a-alert-warning">
@@ -169,11 +169,11 @@
                     </form>
                 </div>
                 <div class="a-divider a-divider-break">
-                    <h5>New to Amazon?</h5>
+                    <h5>New Account?</h5>
                 </div>
                 <span id="auth-create-account-link" class="a-button a-button-span12"><span class="a-button-inner"><a
                         id="createAccountSubmit" tabindex="6" href="/register" class="a-button-text" role="button">
-                  Create your Amazon account
+                  Create your New account
                   </a></span></span>
             </div>
         </div>
@@ -202,7 +202,7 @@
             </div>
             <div class="a-section a-spacing-none a-text-center">
                   <span class="a-size-mini a-color-secondary">
-                  © 1996-2018, Amazon.com, Inc. or its affiliates
+                  © 1996-2018, E-Store, Inc. or its affiliates
                   </span>
             </div>
         </div>
