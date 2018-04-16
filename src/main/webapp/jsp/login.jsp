@@ -132,13 +132,17 @@
                                         <span class="error text-danger" id="passwordError"></span>
                                     </div>
                                     <div class="a-section">
-                                    <span id="continue" class="a-button a-button-span12 a-button-primary"><span
-                                            class="a-button-inner"><input id="continue" tabindex="5"
+                                    <span id="continue" name="btn-login"class="a-button a-button-span12 a-button-primary">
+                                        <span
+                                            class="a-button-inner">
+                                        <input id="continue" tabindex="5"
                                                                           class="a-button-input" type="submit"
-                                                                          aria-labelledby="continue-announce"><span
+                                                                          aria-labelledby="continue-announce">
+                                        <span
                                             id="continue-announce" class="a-button-text" aria-hidden="true">
                                     continue
-                                    </span></span>
+                                    </span>
+                                        </span>
                                     </span>
                                     </div>
                                     <div class="a-section">
