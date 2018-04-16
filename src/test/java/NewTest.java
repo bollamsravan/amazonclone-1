@@ -1,44 +1,8 @@
-package example;
+@Test
+public void anExampleTest() {
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.Assert;
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.AfterTest;
+        // Check that the add() method of a calculator returns 4
+        // when it is asked to add 2 and 2
 
-public class NewTest {
-    public static void main(String[] args){
-        driver.get("http://localhost:8011/login");
-        String title = driver.getTitle();
-        Assert.assertTrue(title.contains("Amazon Sign IN"));
-    }
-}
-
-//package example;
-//
-//import org.openqa.selenium.By;
-//import org.openqa.selenium.WebDriver;
-//import org.openqa.selenium.firefox.FirefoxDriver;
-//import org.testng.Assert;
-//import org.testng.annotations.Test;
-//import org.testng.annotations.BeforeTest;
-//import org.testng.annotations.AfterTest;
-//public class NewTest {
-//    private WebDriver driver;
-//    @Test
-//    public void testEasy() {
-//        driver.get("http://localhost:8011/login");
-//        String title = driver.getTitle();
-//        Assert.assertTrue(title.contains("Amazon Sign IN"));
-//    }
-//    @BeforeTest
-//    public void beforeTest() {
-//        driver = new FirefoxDriver();
-//    }
-//    @AfterTest
-//    public void afterTest() {
-//        driver.quit();
-//    }
-}
+        Assert.assertEquals(4, calculator.add(2,2));
+        }
