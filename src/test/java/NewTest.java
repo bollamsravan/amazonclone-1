@@ -25,7 +25,8 @@ public class NewTest {
         element1.sendKeys("shravan");
         WebElement button=driver.findElement(By.xpath("//input[@id='continue']"));
         button.click();
-        
+        driver.quit();
+
     }
 }
 
