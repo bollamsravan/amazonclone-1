@@ -10,9 +10,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Database {
-    private static final String USERNAME = "ooad";
-    private static final String PASSWORD = "ooad";
-    private static final String DATABASE_NAME = "amazon";
+    private static final String USERNAME = "root";
+    private static final String PASSWORD = "shravan";
+    private static final String DATABASE_NAME = "amazonclone";
     private static final String CONNECTION_URL = "jdbc:mysql://localhost:3306/" + DATABASE_NAME + "?useSSL=false";
 
     public static Connection getConnection() throws ClassNotFoundException, SQLException {
