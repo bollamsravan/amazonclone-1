@@ -7,11 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.WebDriver;
 
-import org.testng.Assert;
 import org.junit.Test;
-
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.AfterTest;
 
 
 public class NewTest {
@@ -29,8 +25,7 @@ public class NewTest {
         element1.sendKeys("shravan");
         WebElement button=driver.findElement(By.xpath("//input[@id='continue']"));
         button.click();
-
-        driver.quit();
+        
     }
 }
 
