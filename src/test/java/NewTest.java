@@ -14,7 +14,9 @@ public class NewTest {
 
     @Test
     public void testEasy() {
-//        System.setProperty("webdriver.gecko.driver", "/usr/local/service/geckodriver");
+//        \
+//
+// System.setProperty("webdriver.gecko.driver", "/usr/local/service/geckodriver");
 //
 //        //Now you can Initialize marionette driver to launch firefox
 //        WebDriver driver = new FirefoxDriver();
