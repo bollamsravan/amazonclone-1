@@ -16,7 +16,7 @@ pipeline {
      stage('Docker Build') {
           agent any
           steps {
-            sh 'sudo docker build -t devops1 container1:latest .'
+            sh 'docker build -t devops1 container1:latest .'
           }
         }
 
