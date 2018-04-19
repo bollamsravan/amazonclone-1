@@ -14,6 +14,5 @@ RUN xvfb &
 COPY pom.xml /usr/local/service/pom.xml
 COPY src /usr/local/service/src
 WORKDIR /usr/local/service
-COPY geckodriver /usr/local/service
 RUN mvn package
 CMD ["java","-jar","Amazon.war"]
