@@ -14,17 +14,17 @@ public class NewTest {
 
     @Test
     public void testEasy() {
-        System.setProperty("webdriver.gecko.driver", "/home/shravan/SeleniumGecko/geckodriver");
-
-        //Now you can Initialize marionette driver to launch firefox
-        WebDriver driver = new FirefoxDriver();
-        driver.get("http://localhost:8083/login");
-        WebElement element=driver.findElement(By.xpath("//input[@name='email']"));
-        element.sendKeys("bollamsravan@gmail.com");
-        WebElement element1=driver.findElement(By.xpath("//input[@name='psword']"));
-        element1.sendKeys("shravan");
-        WebElement button=driver.findElement(By.xpath("//input[@id='continue']"));
-        button.click();
+//        System.setProperty("webdriver.gecko.driver", "/usr/local/service/geckodriver");
+//
+//        //Now you can Initialize marionette driver to launch firefox
+//        WebDriver driver = new FirefoxDriver();
+//        driver.get("http://localhost:8083/login");
+//        WebElement element=driver.findElement(By.xpath("//input[@name='email']"));
+//        element.sendKeys("bollamsravan@gmail.com");
+//        WebElement element1=driver.findElement(By.xpath("//input[@name='psword']"));
+//        element1.sendKeys("shravan");
+//        WebElement button=driver.findElement(By.xpath("//input[@id='continue']"));
+//        button.click();
 
     }
 }
