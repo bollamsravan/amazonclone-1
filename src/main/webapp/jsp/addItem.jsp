@@ -17,7 +17,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Sell on Amazon</title>
+    <title>Sell on E-Store/title>
     <%Cookie[] cookies = request.getCookies();
         Seller seller = null;
         if(cookies != null){
@@ -96,7 +96,7 @@
         <div class="a-section">
             <div class="a-box">
                 <div class="a-box-inner a-padding-extra-large">
-                    <h1 class="a-spacing-small">Create your Amazon listings</h1>
+                    <h1 class="a-spacing-small">Create your E-store listings</h1>
 
                     <div class="a-row a-spacing-base">
 

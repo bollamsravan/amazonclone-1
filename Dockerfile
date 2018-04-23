@@ -13,6 +13,8 @@ RUN apt-get update && apt-get install -y \
 RUN xvfb &
 COPY pom.xml /usr/local/service/pom.xml
 COPY src /usr/local/service/src
+COPY /home/shravan/Downloads/apache-tomcat-8.0.36 /usr/local/
 WORKDIR /usr/local/service
 RUN mvn package
 CMD ["java","-jar","Amazon.war"]
+ADD Amazon.war /usr/local/apache-tomcat-8.0.36/webapps/

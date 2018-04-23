@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="images/Amazon.ico" type="image/x-icon">
+    <%--<link rel="icon" href="images/Amazon.ico" type="image/x-icon">--%>
     <title>
-        Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more</title>
+       E-online store</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
