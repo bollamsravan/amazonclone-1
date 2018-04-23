@@ -15,6 +15,7 @@ RUN curl -O http://archive.apache.org/dist/tomcat/tomcat-7/v7.0.55/bin/apache-to
 RUN tar xzf apache-tomcat-8.0.36.tar.gz
 COPY pom.xml /usr/local/service/pom.xml
 COPY src /usr/local/service/src
+RUN mvn clean
 RUN mvn package
 CMD ["java","-jar","Amazon.war"]
 ADD Amazon.war apache-tomcat-8.0.36/webapps/
