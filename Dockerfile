@@ -11,13 +11,8 @@ RUN apt-get update && apt-get install -y \
     curl \
     xvfb
 RUN xvfb &
-RUN curl -O http://archive.apache.org/dist/tomcat/tomcat-8/v8.0.36/bin/apache-tomcat-8.0.36.tar.gz
-RUN tar xzf apache-tomcat-8.0.36.tar.gz
 COPY pom.xml /usr/local/service/pom.xml
 COPY src /usr/local/service/src
 RUN mvn clean
 RUN mvn package
 CMD ["java","-jar","Amazon.war"]
-ADD Amazon.war apache-tomcat-8.0.36/webapps/
-CMD apache-tomcat-8.0.36/bin/startup.sh && tail -f apache-tomcat-8.0.36/logs/catalina.out
-EXPOSE 8080
