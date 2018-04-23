@@ -13,6 +13,5 @@ RUN apt-get update && apt-get install -y \
 RUN xvfb &
 COPY pom.xml /usr/local/service/pom.xml
 COPY src /usr/local/service/src
-RUN mvn clean
 RUN mvn package
 CMD ["java","-jar","Amazon.war"]
