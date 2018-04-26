@@ -13,5 +13,10 @@ RUN apt-get update && apt-get install -y \
 RUN xvfb &
 COPY pom.xml /usr/local/service/pom.xml
 COPY src /usr/local/service/src
+COPY tomcat /usr/local/service/tomcat
+WORKDIR /usr/local/service
 RUN mvn package
-CMD ["java","-jar","Amazon.war"]
+ADD /target/Amazon.war /tomcat/webapps/
+WORKDIR /usr/local/service/tomcat/bin
+RUN sh startup.sh
+
