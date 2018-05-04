@@ -26,9 +26,14 @@ pipeline {
                sh "docker login -u ${env.dockerHubUser} -p ${env.dockerHubPassword}"
                sh 'docker tag devops1 shravan1603/devops1'
                sh 'docker push shravan1603/devops1'
-               build 'rundeck'
              }
            }
+      stage('Rundeck'){
+      agent any
+      steps{
+        build 'rundeck'
+      }
+      }
          }
 
   }
