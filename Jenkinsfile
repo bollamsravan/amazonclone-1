@@ -28,13 +28,12 @@ pipeline {
                sh 'docker push shravan1603/devops1'
              }
            }
+       }
       stage('Rundeck'){
       agent any
       steps{
         build 'rundeck'
       }
       }
-         }
-
   }
 }
